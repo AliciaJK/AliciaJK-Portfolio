@@ -1,47 +1,27 @@
-*:root{
+/*:root{
   --wine: rgba(116, 6, 6, 0.925);
   --blue: rgba(15, 79, 153, 0.979);
-}
+}*/
 
 header{
-  background-color: var(--wine);
+  background: rgba(116, 6, 6, 0.925);
+}
+
+header h1 {
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-size: larger;
+  margin: 30px;
+  justify-content: center;
+}
+
+header ul {
+position: inline;
 
 }
+/*
+
   body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
   }
-  
-  .boxes {
-    display: flex;
-    flex-direction: row;
-    /* Centers along the main axis determined by flex-direction */
-    justify-content: center;
-    /* Centers along the opposite axis */
-    align-items: center;
-    width: 90%;
-    /* Uses the height of the viewport */
-    height: 100vh;
-    margin: 0 auto;
-    border-style: solid;
-    border-width: 2px;
-  }
-  
-  .card {
-    padding: 10px;
-    width: 250px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  .card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-  
