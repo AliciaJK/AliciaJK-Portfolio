@@ -1,27 +1,191 @@
-/*:root{
-  --wine: rgba(116, 6, 6, 0.925);
-  --blue: rgba(15, 79, 153, 0.979);
-}*/
-
-header{
-  background: rgba(116, 6, 6, 0.925);
+/* Start background code*/ 
+:root {
+  --angle: 0deg;
 }
 
-header h1 {
-  font-weight: bolder;
-  font-stretch: expanded;
-  font-size: larger;
-  margin: 30px;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: linear-gradient(45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c97822 100%);
+  animation: gradient-change 5s linear infinite;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
+.container2 .card2 {
+  text-transform: capitalize;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 5px #0005;
+}
 
-header ul {
-position: inline;
+@keyframes gradient-change {
+  0% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  100% {
+    filter: hue-rotate(90deg) brightness(1.5);
+  }
+  100% {
+    filter: hue-rotate(360deg) brightness(1);
+  }
+}
+
+/* end background code. Courtesy of https://codepen.io/malbarmavi/pen/NWbgbOq*/
+
+
+
+
+
+body, html {
+  font-family:  Helvetica, arial, sans-serif;
+  margin: 0;
+}/*background-image: url("https://img.freepik.com/free-vector/hexagonal-technology-pattern-mesh-background-with-text-space_1017-26293.jpg?size=626&ext=jpg") ;*/
+  /*background-size: cover;
+  height: 100%;
+  color: white;*/
+
+header{
+  background: rgba(255, 255, 255, 0.418);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
 }
-/*
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  font-size: 30px;
+  
+}
 
-  body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-  }
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+  padding:10px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-stretch: expanded;
+  text-align: 100px left ;
+  padding: 5px;
+  font-size: 200%;
+  font-family: sans-serif;
+
+}
+
+.mainBio
+
+#bioImage{
+  border-radius: 25px;
+  border:rgba(116, 6, 6, 0.925) 25px;
+  margin: 15px;
+  box-shadow: white ;
+
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+section p {
+  margin: 10px;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background: #160244;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  margin: 25px;
+  background-color: white 0.5;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+  position: relative;
+  top:-40px;
+  left: 20px;
+  
+}
+
+.card p {
+position: relative;
+left: 5px;
+
+}
+footer{ 
+  background: rgba(255, 255, 255, 0.418);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer h2{ 
+  display: inline;
+}
+
+footer ul{
+  font-weight: bolder;
+  font-stretch: expanded;
+  text-align: 100px left ;
+  padding: 5px;
+  font-size: 100%;
+  font-family: sans-serif;
+  justify-content: space-between;
+  display: flex;
+}
+
+
