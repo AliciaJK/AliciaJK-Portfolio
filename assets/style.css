@@ -73,6 +73,8 @@ body, html {
   height: 100%;
   color: white;*/
 
+
+  /* The header bar*/
 header{
   background: rgba(255, 255, 255, 0.418);
   height: 50px;
@@ -81,39 +83,58 @@ header{
   justify-content: space-between;
 
 }
+
+/* The text in the header*/
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
   font-size: 30px;
+  margin: 5px;
   
 }
 
+
+/* the left nav bar text */
 nav a {
-  color: #b9c6ae;
+  color: #444040;
   font-weight: bold;
   text-decoration: none;
   padding:10px;
+  font-size: medium;
 }
 
+
+/* The right nav bar text - my name*/
 h1 {
   font-weight: bolder;
   font-stretch: expanded;
-  text-align: 100px left ;
-  padding: 5px;
+  padding: 7px;
   font-size: 200%;
   font-family: sans-serif;
 
 }
 
-.mainBio
+/*The main bio*/
+.mainBio{ 
+  float: right;
+  display: inline;
+  margin: 15px;
+}
 
 #bioImage{
   border-radius: 25px;
   border:rgba(116, 6, 6, 0.925) 25px;
   margin: 15px;
-  box-shadow: white ;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.5) ;
+  float: left;
+  display: flex;
 
+}
+
+.details{
+  border-radius: 5px;
+  display: inline-flex;
 }
 
 main {
@@ -135,16 +156,20 @@ section p {
   color: #fff;
 }
 
+
+/* the cards itself*/
 .card {
   display: flex;
   padding: 10px;
-  text-align: left;
   border-style: solid;
   border-width: 1px;
   margin: 25px;
-  background-color: white 0.5;
+  border-radius: 10px;
+  display: inline-block
 }
 
+
+/*title of the cards*/
 .card header {
   padding: 20px;
   background: #13293d;
@@ -152,20 +177,22 @@ section p {
   position: relative;
   top:-40px;
   left: 20px;
+  border-radius: 10px;
   
 }
 
-.card p {
-position: relative;
-left: 5px;
-
+/* text within the floating boxes*/
+.card img {
+position: fill;
 }
+
+
 footer{ 
   background: rgba(255, 255, 255, 0.418);
   height: 50px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -178,14 +205,21 @@ footer h2{
 }
 
 footer ul{
-  font-weight: bolder;
+  font-weight: bold;
   font-stretch: expanded;
-  text-align: 100px left ;
+  text-align: 100px center ;
   padding: 5px;
   font-size: 100%;
   font-family: sans-serif;
   justify-content: space-between;
   display: flex;
+  color: #444040;
+  text-decoration: none;
+  padding:5px;
+  
+  
 }
 
-
+footer ul li{
+  padding-left: 5px;
+}
