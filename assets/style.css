@@ -153,6 +153,11 @@ h1 {
 
 }
 
+.resume:hover{
+  background-color: #f8f8f8b9; 
+  border-radius: 25px;
+  transition-duration: 0.5s;
+}
 
 /* This styles ALL cards at the same time*/
 .allCards{
