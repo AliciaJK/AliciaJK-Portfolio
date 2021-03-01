@@ -199,9 +199,11 @@ section p{
   flex-grow: 1 0 0;
 
   /*these are placeholder images*/
-  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/5GaLeZJlLyOiQC4gOA0qUM/a0398c237e9744ade8b072f99349e07a/shutterstock_152461202_thumb.jpg?fit=fill&w=368&h=207") ;
- 
+  background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2018/01/thumb_720_450_Gearsdreamstime_xl_89463027.jpg") ;
+  background-blend-mode: overlay;
  }
+
+
  .card2 {
   display: flex;
   padding: 10px;
@@ -210,9 +212,12 @@ section p{
   border-width: 1px;
   border-radius: 25px;
   margin: 25px;
-  background-image: url("https://image.freepik.com/free-vector/abstract-background_53876-43362.jpg") ;
+  background-image: url("https://singularityhub.com/wp-content/uploads/2018/05/drone-city-lights-skyline_678499576-1068x601.jpg") ;
+  background-size: cover;
+ }
  
- }.card3 {
+ 
+ .card3 {
   display: flex;
   padding: 10px;
   text-align: left;
@@ -257,7 +262,7 @@ section p{
 /*title of the cards*/
 .card1 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
@@ -267,7 +272,7 @@ section p{
 }
 .card2 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
@@ -277,7 +282,7 @@ section p{
 }
 .card3 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
@@ -287,7 +292,7 @@ section p{
 }
 .card4 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
@@ -297,7 +302,7 @@ section p{
 }
 .card5 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
@@ -307,7 +312,7 @@ section p{
 }
 .card6 header {
   padding: 20px;
-  background:rgba(255, 255, 255, 0.418);
+  background:rgba(255, 255, 255, 0.658);
   color: rgb(43, 42, 42);
   border-radius: 10px;
   border-style: solid;
