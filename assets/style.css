@@ -81,6 +81,7 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  
 
 }
 
@@ -122,6 +123,8 @@ h1 {
   margin: 15px;
   text-align: center;
   text-size-adjust: 150%;
+  background-color: #f8f8f80e; 
+  border-radius: 25px;
   
 }
 
@@ -135,40 +138,47 @@ h1 {
   display: flex;
 
 }
-
+ 
+/*This styles the resume button */
 .resume {
-  background-color: #f8f8f8; 
+  background-color: #f8f8f82a; 
   border: none;
   color: rgb(0, 0, 0);
-  padding: 15px 32px;
+  padding: 11px 50px;
+  margin-top: 40px;
+  border-radius: 15px;
+  align-items: center;
+  font-weight: bolder;
 
 }
 
+
+/* This styles ALL cards at the same time*/
 .allCards{
   border-radius: 10px;
   display: inline-flex;
   justify-content: center;
+  padding-bottom: 40px;
 }
 
+
+/* This ensures that the page flexs with size*/
 main {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2%;
+
 }
 
-
-
+/* This is the spacing btwn the first paragraphs*/
 section p{
   margin: 10px;
 }
 
 .main-header {
   display: flex;
-  /*flex-wrap: wrap;*/
   padding: 10px;
   background: #ffffff2c;
   color: #fff;
-  Content: "Project Title"
 }
 
 
@@ -179,6 +189,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://images.ctfassets.net/hrltx12pl8hq/5GaLeZJlLyOiQC4gOA0qUM/a0398c237e9744ade8b072f99349e07a/shutterstock_152461202_thumb.jpg?fit=fill&w=368&h=207") ;
  
@@ -189,6 +200,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://image.freepik.com/free-vector/abstract-background_53876-43362.jpg") ;
  
@@ -198,6 +210,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://blog.pshares.org/wp-content/uploads/sites/10/2014/08/abstract_paint.jpeg") ;
  
@@ -207,6 +220,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80") ;
  
@@ -216,6 +230,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://i.pinimg.com/originals/c3/12/16/c31216424b811a9770b5b7dacb06fa3e.jpg") ;
  
@@ -225,6 +240,7 @@ section p{
   text-align: left;
   border-style: solid;
   border-width: 1px;
+  border-radius: 25px;
   margin: 25px;
   background-image: url("https://images.ctfassets.net/hrltx12pl8hq/5GaLeZJlLyOiQC4gOA0qUM/a0398c237e9744ade8b072f99349e07a/shutterstock_152461202_thumb.jpg?fit=fill&w=368&h=207") ;
  
@@ -235,7 +251,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -246,7 +261,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -257,7 +271,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -268,7 +281,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -279,7 +291,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -290,7 +301,6 @@ section p{
   padding: 20px;
   background:rgba(255, 255, 255, 0.418);
   color: rgb(43, 42, 42);
-  /*position: relative;*/
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -339,6 +349,8 @@ section p{
 }
 
 
+/*Footer*/
+
 footer{ 
   background: rgba(255, 255, 255, 0.418);
   height: 50px;
@@ -371,20 +383,26 @@ footer ul{
   
   
 }
-
+/*Padding around the footer items*/
 footer ul li{
   padding-left: 5px;
 }
 
-/* Large smartphones - navbar changes color */
+/* small smartphones */
 @media screen and (max-width: 450px) {
   #bioImage {
     height: 100px;
     width: 100px;
   }
+
+  .mainbio{
+    display: block;
+
+  }
+  
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones */
 @media screen and (max-width: 540px) {
   #bioImage {
     height: 100px;
@@ -403,7 +421,7 @@ footer ul li{
   }
   }
 
-/* Large smartphones - navbar changes color */
+/* tablet size  */
 @media screen and (max-width: 768px) {
     #bioImage {
       height: 150px;
