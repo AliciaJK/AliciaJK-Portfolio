@@ -118,13 +118,14 @@ h1 {
 
 /*The main bio*/
 .mainBio{ 
-  float: right;
+  float: left;
   display: inline;
   margin: 15px;
   text-align: center;
   text-size-adjust: 150%;
   background-color: #f8f8f80e; 
   border-radius: 25px;
+  width: 98%;
   
 }
 
@@ -141,7 +142,7 @@ h1 {
  
 /*This styles the resume button */
 .resume {
-  background-color: #f8f8f82a; 
+  background-color: #f8f8f854; 
   border: none;
   color: rgb(0, 0, 0);
   padding: 11px 50px;
