@@ -1,6 +1,8 @@
 # AliciaJK-Portfolio
 Welcome to my portfolio!
 
+https://aliciajk.github.io/AliciaJK-Portfolio/
+
 This website is designed with HTML and CSS. 
 
 There are two main parts of the HTML. There is the main bio and image and the project cards. There is a header and footer with responsive links. 
